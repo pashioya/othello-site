@@ -68,6 +68,9 @@ li a:hover{
     color: #12a114;
 }
 
+.active{
+    color: #12a114;
+}
 nav img{
 
     padding:0;

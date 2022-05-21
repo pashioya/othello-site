@@ -71,6 +71,20 @@ li a{
 li a:hover{
     color: #12a114;
 }
+.active{
+    color: #12a114;
+}
+
+button:hover{
+    background-color: #0a5c0c;
+
+}
+
+.login:hover{
+    background-color: #008000;
+    color: #E9ECEF;
+
+}
 
  nav img{
 
@@ -114,7 +128,7 @@ main >*{
 
 h1{
     font-size: 100px;
-    margin-bottom: 15%;
+    margin-bottom: 11%;
 
 }
 
