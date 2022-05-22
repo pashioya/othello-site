@@ -29,15 +29,20 @@ nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
-    margin-left: 10em;
-
+    margin-left: 13em;
+    align-items: center;
 
 
 }
+
+
+
+
+
 nav ul li{
     display: inline;
 
-    /*margin: 15px;*/
+
 
     padding: 15px;
 
@@ -141,7 +146,7 @@ h2{
 
 footer{
     background-color: #212529;
-
+text-align: center;
     position:absolute;
     bottom:0;
     width:100%;
@@ -149,4 +154,48 @@ footer{
 
 }
 
+@media screen and (max-width: 1440px) {
+    nav ul {
 
+        margin-left: 10em;
+    }
+
+    main >* {
+
+        margin-top: 11%;
+
+    }
+
+}
+
+@media screen and (max-width: 1310px){
+    nav ul {
+
+        margin-left: 5em;
+    }
+}
+
+
+@media screen and (max-width: 1210px){
+    nav ul {
+
+        margin-left: 0;
+    }
+    nav ul li{
+        padding:10px;
+
+    }
+}
+
+@media screen and (max-width: 1024px){
+    nav ul {
+
+        margin-left: 0;
+    }
+    nav ul li{
+        font-size:small;
+        padding:5px;
+
+
+    }
+}

@@ -97,6 +97,17 @@ nav button{
 
 }
 
+nav button:hover{
+    background-color: #0a5c0c;
+
+}
+
+.login:hover{
+    background-color: #008000;
+    color: #E9ECEF;
+
+}
+
 .login{margin-left: auto;
     background-color: #E9ECEF;
     color: #008000;
@@ -154,10 +165,11 @@ footer{
     background-color: #212529;
     color: #f2f2f2;
 
-
+    text-align: center;
     position:fixed;
     bottom:0;
     width:100%;
     height:2em;
+    font-weight: bold;
 
 }

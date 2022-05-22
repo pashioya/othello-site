@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #E9ECEF;
+
     font-family: 'Josefin Sans', sans-serif;
 
 
 
 }
+
+body{  background-color: #f0f2f4;}
 
 nav{
 
@@ -23,7 +25,7 @@ nav{
 }
 nav ul {
     display: flex;
-    list-style-type: none;
+
     justify-content: space-around;
     margin-left: 10em;
 
@@ -98,13 +100,75 @@ nav button{
     color: #008000;
 }
 
+nav button:hover{
+    background-color: #0a5c0c;
+
+}
+
+.login:hover{
+    background-color: #008000;
+    color: #E9ECEF;
+
+}
+
+
+main button{
+    height: 5em;
+    width: 10em;
+    border-radius: 0.5em;
+    background-color: #E9ECEF;
+    color: #008000;
+    font-weight: bold;
+    font-size: small;
+
+
+}
+
+main button:hover{ background-color: #008000;
+    color: #E9ECEF;}
+
+h1{
+    font-size: 35px;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+
+ul{
+    list-style-type: none;
+
+}
+
+div{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+div ul li{
+font-size: 1.3em;
+    margin-left: 2em;
+    align-self: center;
+    text-align: justify-all;
+}
+
+div button{
+   margin-top: 2em;
+    align-self: center;
+}
+
 
 footer{
     background-color: #212529;
-
+        color: #f2f2f2;
     position:absolute;
     bottom:0;
     width:100%;
     height:2em;
+    text-align: center;
+    font-weight: bold;
 
 }
