@@ -17,12 +17,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    /*position:fixed;*/
 
     flex: 1;
     background-color: #212529;
     overflow: hidden;
     font-weight: bold;
+    width: 100%;
 
 }
 nav ul {
@@ -136,6 +137,8 @@ p{
 
 }
 
+
+
 .right{
     display: flex;
     flex-direction: row-reverse;
@@ -161,15 +164,205 @@ margin-top: 10%;
 font-weight: bold;
 font-style: italic;}
 
+
+.smallImg{
+    height: 29%;
+    width: 31%;
+}
+.midImg{
+    height:50%;
+    width:45%;
+}
+
+.bigImg{
+    height:45%;
+    width:60%;
+}
+
 footer{
     background-color: #212529;
     color: #f2f2f2;
 
     text-align: center;
-    position:fixed;
+    position:relative;
     bottom:0;
     width:100%;
     height:2em;
     font-weight: bold;
+
+}
+
+
+@media screen and (max-width: 1440px) {
+    nav ul {
+
+        margin-left: 10em;
+    }
+
+    .bigImg{
+        height:400px;
+        width:550px;
+    }
+
+
+}
+
+@media screen and (max-width: 1310px){
+    nav ul {
+
+        margin-left: 5em;
+    }
+}
+
+
+@media screen and (max-width: 1210px){
+    nav ul {
+
+        margin-left: 0;
+    }
+    nav ul li{
+        padding:10px;
+
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+
+    nav ul li{
+        padding:8px;
+
+    }
+
+    nav ul li a{
+        font-size:15px;
+
+
+
+    }
+
+    nav button{
+        height: 1.5em;
+
+
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        width: 6em;
+
+    }
+
+
+
+    footer{
+        font-size:15px;
+    }
+
+    p{
+        font-size: medium;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 789px){
+
+    nav ul li{
+        padding:6px;
+
+    }
+
+    nav img{
+        height: 1.1em;
+    }
+
+
+
+    nav ul li{
+        padding:5px;
+
+    }
+
+    nav button {
+
+
+        font-size: 0.65em;
+
+    }
+
+    nav ul li a{
+        font-size:10px;
+
+
+
+    }
+
+
+
+    .bigImg{
+        height:47%;
+        width:55%;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+
+    footer{
+        font-size:10px;
+    }
+}
+
+@media screen and (max-width: 606px){
+    nav {
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .login{
+        margin-left: 0;
+    }
+
+
+
+    p{
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 435px) {
+    .left {
+        flex-direction: column-reverse;
+       padding-left: 0;
+        align-items: center;
+
+
+    }
+    .right{
+        flex-direction: column-reverse;
+        padding-right: 0;
+        align-items: center;
+    }
+
+    .smallImg{
+        height: 59%;
+        width: 61%;
+    }
+    .midImg{
+        height:70%;
+        width:65%;
+    }
+
+    .bigImg{
+        height:65%;
+        width:80%;
+    }
+    h1{
+        font-size: 25px;
+    }
 
 }

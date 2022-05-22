@@ -89,7 +89,7 @@ nav button{
     margin-right: 1em;
     width: 8em;
     border-radius: 12em;
-
+    font-weight: bold;
 
 }
 
@@ -109,6 +109,7 @@ button:hover{
 
 }
 
+main{padding-bottom: 4.1%}
 
 h1{
     font-size: 35px;
@@ -127,20 +128,20 @@ display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 2em;
-    width: 400px;
+    width:30%;
 }
 section img{
 
     border-radius: 50%;
     padding: 8%;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 
 }
 
 section p{
-    font-size: 1.3em;
-    padding: 0.6em;
+    font-size: 100%;
+    padding: 3%;
 }
 
 .name{
@@ -154,11 +155,166 @@ section p{
 footer{
     background-color: #212529;
     color: #f2f2f2;
-    position:absolute;
+
+    text-align: center;
+    position:relative;
     bottom:0;
     width:100%;
     height:2em;
-    text-align: center;
     font-weight: bold;
 
+}
+
+
+@media screen and (max-width: 1440px) {
+    nav ul {
+
+        margin-left: 10em;
+    }
+
+    section p{
+        font-size: 130%;
+        padding: 3%;
+    }
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1310px){
+    nav ul {
+
+        margin-left: 5em;
+    }
+}
+
+
+@media screen and (max-width: 1210px){
+    nav ul {
+
+        margin-left: 0;
+    }
+    nav ul li{
+        padding:10px;
+
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+
+    nav ul li{
+        padding:8px;
+
+    }
+
+    nav ul li a{
+        font-size:15px;
+
+
+
+    }
+
+    nav button{
+        height: 1.5em;
+
+
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        width: 6em;
+
+    }
+
+    h1{
+        font-size: 50px;
+
+
+
+    }
+
+
+    footer{
+        font-size:15px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    nav ul li{
+        padding:6px;
+
+    }
+
+    nav img{
+        height: 1.1em;
+    }
+
+    h1{
+        font-size: 30px;
+
+
+
+    }
+
+    main ul li{
+        font-size: 15px;
+    }
+
+
+
+    nav ul li{
+        padding:5px;
+
+    }
+
+    nav button {
+
+
+        font-size: 0.65em;
+
+    }
+
+    nav ul li a{
+        font-size:10px;
+
+
+
+    }
+    footer{
+        font-size:10px;
+    }
+}
+
+@media screen and (max-width: 606px){
+    nav {
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .login{
+        margin-left: 0;
+    }
+
+    main ul li{
+        font-size: 11px;
+    }
+
+    article{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    section{
+        width: 75%;
+
+    }
+
+    section:not
 }
