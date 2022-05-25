@@ -18,7 +18,7 @@ if(logCheck=="true"){
 
         stat.addEventListener("click", evt => {
            if (window.location.pathname==="/Othello_Website/index.html"){
-               window.location.href="html/Stat.html";}
+               window.location.href="../html/Stat.html";}
            else { window.location.href="Stat.html";}
        })
 
@@ -43,7 +43,7 @@ if(logCheck=="true"){
 else {
     logButton.addEventListener("click", e => {
         if (window.location.pathname === "/Othello_Website/index.html") {
-            window.location.href = "html/Login.html";
+            window.location.href = "../html/Login.html";
         } else {
             window.location.href = "Login.html";
         }
