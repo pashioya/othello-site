@@ -1,4 +1,4 @@
-import { usersJson } from '/Othello_Website/JavaScript/users.js';
+import { usersJson } from '/Othello_Website/website/JavaScript/users.js';
 
 
 const button=document.querySelector("button");
