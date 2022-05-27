@@ -30,10 +30,15 @@
             <button onclick="window.location.href='../download/othello-packed.zip'">Download Othello</button>
             <!--    These are not the instructions for downloading the game!!!!! I'm using the integrity check ones as a placeholder-->
             <ul>
-                <li>Open the zip file in your IDE</li>
-                <li>Make sure you have the JavaFX library and add it to the modual</li>
-                <li>In runtime configuration add a VM option </li>
-                <li>Connect to the database(make sure you have PostgresSQL and PgAdmin installed)</li>
+                <li>Open the unzipped folder using Intellij</li>
+                <li>Download the JavaFX library in the link at the bottom </li>
+                <li>Add it as a global library on your Intellij </li>
+                <li>Add the javafx global library to the game module</li>
+                <li>In runtime configuration add a VM option "--module-path "[PATH TO YOUR JAVAFX LIB FOLDER]" --add-modules=javafx.controls,javafx.media
+                    " </li>
+                <li>Make sure you have PostgresSQL and PgAdmin installed</li>
+                <li>Create an "othello" database on your pgAdmin</li>>
+                <li>Run the main file on the othello folder using Intellij</li>
                 <li>Enjoy Othello!</li>
             </ul>
             </div>
@@ -51,6 +56,8 @@
                 <li>The output should tell you whether your file is up to date</li>
             </ul>
             </div>
+            <a href="https://gluonhq.com/products/javafx/">JavaFX Library download</a>
+            <br>
             <a href="https://www.thewindowsclub.com/run-bash-on-windows-10">Windows Instructions</a>
         </main>
         <footer>
