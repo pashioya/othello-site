@@ -1,6 +1,6 @@
 import { usersJson } from './users.js';
 
-
+let errorMessage=document.getElementById("errorMessage");
 const button=document.getElementById("submit")
 button.addEventListener("click", ev => {getInfo()})
 
@@ -23,6 +23,7 @@ function getInfo() {
     }
     console.log("Please try again");
     let inputs= document.querySelectorAll("input");
+    errorMessage.textContent="Error! Please try again"
     inputs[0].value=null;
     inputs[1].value=null;
 }

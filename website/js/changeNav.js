@@ -13,15 +13,15 @@ if(logCheck==="true"){
         stat.text= "Statistics" ;
 
         stat.addEventListener("click", evt => {
-            if (window.location.pathname=="/othello-website/website/index.html"){
+            if (window.location.pathname=="/index.html"){
                 window.location.href="./html/Stat.html";}
 
             else { window.location.href="Stat.html";}
         })
 
     logButton.addEventListener("click", ev => {
-        if(window.location.pathname==="/Othello_Website/html/Stat.html"){
-            window.location.href="/Othello_Website/index.html";
+        if(window.location.pathname==="/html/Stat.html"){
+            window.location.href="/index.html";
             window.localStorage.clear();
         }
         else {window.localStorage.clear();
@@ -30,7 +30,7 @@ if(logCheck==="true"){
 }
 else {
     logButton.addEventListener("click", e => {
-        if (window.location.pathname === "/othello-website/website/index.html") {
+        if (window.location.pathname === "/index.html") {
             window.location.href = "./html/Login.html";
         } else {
             window.location.href = "Login.html";
