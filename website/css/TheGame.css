@@ -2,52 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: 'Josefin Sans', sans-serif;
-
-
-
 }
-
 body{  background-color: #f0f2f4;}
-
-
 nav{
-
     display: flex;
     align-items: center;
     justify-content: space-around;
     /*position:fixed;*/
-
     flex: 1;
     background-color: #212529;
     overflow: hidden;
     font-weight: bold;
     width: 100%;
-
 }
 nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
     margin-left: 10em;
-
-
-
 }
 nav ul li{
     display: inline;
-
     /*margin: 15px;*/
-
     padding: 15px;
-
     font-size: medium;
     background-color: #212529;
-
     justify-content: center
-
-
 
 }
 
@@ -60,10 +41,6 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     background-color: #212529;
-
-
-
-
 }
 
 li a{
@@ -78,35 +55,28 @@ li a:hover{
 }
 
 nav img{
-
     padding:0;
     background-color: #212529;
-
-
 }
 
 
 nav button{
     height: 2em;
-
     background-color: green;
     margin-left: 1em;
     margin-right: 1em;
     width: 8em;
     border-radius: 12em;
     font-weight: bold;
-
 }
 
 nav button:hover{
     background-color: #0a5c0c;
-
 }
 
 .login:hover{
     background-color: #008000;
     color: #E9ECEF;
-
 }
 
 .login{margin-left: auto;
@@ -116,8 +86,6 @@ nav button:hover{
 
 
 main{
-
-
     padding-top: 2em;
 }
 
@@ -195,10 +163,8 @@ footer{
 
 @media screen and (max-width: 1440px) {
     nav ul {
-
         margin-left: 10em;
     }
-
     .bigImg{
         height:400px;
         width:550px;
@@ -209,7 +175,6 @@ footer{
 
 @media screen and (max-width: 1310px){
     nav ul {
-
         margin-left: 5em;
     }
 }
@@ -217,12 +182,10 @@ footer{
 
 @media screen and (max-width: 1210px){
     nav ul {
-
         margin-left: 0;
     }
     nav ul li{
         padding:10px;
-
     }
 }
 

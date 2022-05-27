@@ -33,6 +33,7 @@
                 <input type="text" id="username">
                 <label for="score" >Score</label>
                 <input type="number" id="score">
+                <label for="comparison"></label>
                 <select id="comparison">
                     <option value="below">Below</option>
                     <option value="equal">Equal</option>
@@ -43,15 +44,14 @@
                 <label for="lose">Lose</label>
                 <input type="radio" name="win" id="lose">
                 <label>Before</label>
+                <label for="beforeDate"></label>
                 <input type="date" id="beforeDate">
                 <label>After</label>
+                <label for="afterDate"></label>
                 <input type="date" id="afterDate">
                 <button id="submit" >Submit</button>
             </form>
             </div>
-
-
-
             <table>
                 <thead>
                 <th>Id</th>
@@ -62,13 +62,10 @@
                 <th id="tablePlayer">Username</th>
                 <th>Computer name</th>
                 <th id="tableScore">Score</th>
-
-
                 </thead>
                 <tbody id="tbody"></tbody>
             </table>
         </main>
-
         <footer>
             © 2022 | KdG ACS 101 Group 9
         </footer>
