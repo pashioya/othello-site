@@ -1,5 +1,6 @@
 import { usersJson } from './users.js';
 
+const users=JSON.parse(usersJson);
 let errorMessage=document.getElementById("errorMessage");
 const button=document.getElementById("submit")
 button.addEventListener("click", ev => {getInfo()})
@@ -10,14 +11,14 @@ function getInfo() {
     let username=document.getElementById("username").value;
     let password=document.getElementById("password").value;
 
-    for (let i=0; i<usersJson.length; i++){
-        if(username===usersJson[i].username && password===usersJson[i].password){
+    for (let i=0; i<users.length; i++){
+        if(username===users[i].username && password===users[i].password){
             isLogin=true;
             console.log(isLogin);
             window.location.href = "../index.html";
             window.localStorage.setItem("username", username);
             window.localStorage.setItem("isLogin", isLogin);
-            window.localStorage.setItem("role", usersJson[i].role);
+            window.localStorage.setItem("role", users[i].role);
             return;
         }
     }

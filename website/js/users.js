@@ -1,4 +1,4 @@
-export const usersJson = [
+export const usersJson = `[
   {
     "username": "1",
     "password": "1",
@@ -19,4 +19,4 @@ export const usersJson = [
     "password": "A",
     "role": "user"
   }
-]
+]`
