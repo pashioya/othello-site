@@ -1,8 +1,7 @@
 body {
-    background-image: url("../media/Background1.png");
+    background-image: url("../img/Background1.png");
     background-color: #006600;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -10,20 +9,14 @@ body {
     color: #E9ECEF;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-
-
 }
-
 nav{
-
     display: flex;
     align-items: center;
     justify-content: space-around;
-
     flex: 1;
     background-color: #212529;
     overflow: hidden;
-
 }
 nav ul {
     display: flex;
@@ -31,30 +24,14 @@ nav ul {
     justify-content: space-around;
     margin-left: 12em;
     align-items: center;
-
-
 }
-
-
-
-
-
 nav ul li{
     display: inline;
-
-
-
     padding: 15px;
-
     font-size: medium;
     background-color: #212529;
-
     justify-content: center
-
-
-
 }
-
 nav a {
     float: left;
     display: block;
@@ -64,15 +41,7 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     background-color: #212529;
-
-
-
-
 }
-
-
-
-
 li a{
     display: block;
 }
@@ -82,74 +51,48 @@ li a:hover{
 .active{
     color: #12a114;
 }
-
 button:hover{
     background-color: #0a5c0c;
-
 }
-
 .login:hover{
     background-color: #008000;
     color: #E9ECEF;
-
 }
-
- nav img{
-
+nav img{
 padding:0;
-     background-color: #212529;
-
-
+    background-color: #212529;
 }
-
-
 nav button{
     height: 2em;
-
     background-color: green;
     margin-left: 1em;
     margin-right: 1em;
     width: 8em;
     border-radius: 12em;
-
 }
-
 .login{margin-left: auto;
     background-color: #E9ECEF;
     color: #008000;
 }
-
 main{
-   text-align: center;
+    text-align: center;
     margin-top: 5%;
     display: flex;
     flex-direction: column;
-
-
-
 }
-
 main >*{
     color: #E9ECEF;
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 5%;
     /*font-weight: bold;*/
-
 }
-
 h1{
     font-size: 100px;
-
-
 }
-
 h2{
     font-style: italic;
-
     font-size: 50px;
 }
-
-
 footer{
     background-color: #212529;
 text-align: center;
@@ -157,141 +100,87 @@ text-align: center;
     bottom:0;
     width:100%;
     height:2em;
-
 }
-
 @media screen and (max-width: 1440px) {
     nav ul {
-
         margin-left: 10em;
     }
-
     main >* {
-
         margin-top: 11%;
-
     }
-
 }
-
 @media screen and (max-width: 1310px){
     nav ul {
-
         margin-left: 5em;
     }
 }
-
-
 @media screen and (max-width: 1210px){
     nav ul {
-
         margin-left: 0;
     }
     nav ul li{
         padding:10px;
-
     }
 }
-
 @media screen and (max-width: 1024px){
-
-
     nav ul li{
         padding:8px;
-
     }
-
     nav ul li a{
         font-size:15px;
-
-
-
     }
-
     nav button{
         height: 1.5em;
-
-
         margin-left: 0.5em;
         margin-right: 0.5em;
         width: 6em;
-
     }
-
     h1{
         font-size: 85px;
-
         margin-top: 15%;
-
     }
-
     h2{
-
-
         font-size: 35px;
     }
-
         footer{
             font-size:15px;
         }
-
 }
-
 @media screen and (max-width: 768px){
-
     nav ul li{
         padding:6px;
-
     }
-
     nav img{
         height: 1.1em;
     }
-
     h1{
         font-size: 70px;
-
         margin-top: 20%;
-
     }
-
     h2{
-
-
         font-size: 25px;
     }
-
     nav ul li{
         padding:5px;
-
     }
-
     nav button {
-
-
         font-size: 0.65em;
-
     }
-
     nav ul li a{
         font-size:10px;
-
-
-
     }
     footer{
         font-size:10px;
     }
     }
-
 @media screen and (max-width: 606px){
-   nav {
-       flex-direction: column;
-   }
+    nav {
+        flex-direction: column;
+    }
     nav ul{
         flex-direction: column;
     }
     .login{
-        margin-left: 0px;
+        margin-left: 0;
     }
 }

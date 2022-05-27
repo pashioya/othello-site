@@ -2,52 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: 'Josefin Sans', sans-serif;
-
-
-
 }
-
 body{  background-color: #f0f2f4;}
-
 nav{
-
     display: flex;
     align-items: center;
     justify-content: space-around;
-
     flex: 1;
     background-color: #212529;
     overflow: hidden;
     font-weight: bold;
-
 }
 nav ul {
     display: flex;
-
     justify-content: space-around;
     margin-left: 10em;
-
-
-
 }
 nav ul li{
     display: inline;
-
     /*margin: 15px;*/
-
     padding: 15px;
-
     font-size: medium;
     background-color: #212529;
-
-    justify-content: center
-
-
-
+    justify-content: center;
 }
-
 nav a {
     float: left;
     display: block;
@@ -57,56 +36,37 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     background-color: #212529;
-
-
-
-
 }
-
 li a{
     display: block;
 }
 li a:hover{
     color: #12a114;
 }
-
 .active{
     color: #12a114;
 }
-
 nav img{
-
     padding:0;
     background-color: #212529;
-
-
 }
-
-
 nav button{
     height: 2em;
-
     background-color: green;
     margin-left: 1em;
     margin-right: 1em;
     width: 8em;
     border-radius: 12em;
     font-weight: bold;
-
 }
-
 .login{margin-left: auto;
     background-color: #E9ECEF;
     color: #008000;
 }
-
 nav button:hover{
     background-color: #0a5c0c;
-
 }
-
 .login:hover{
     background-color: #008000;
     color: #E9ECEF;
-
 }

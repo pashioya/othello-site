@@ -1,55 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="../JavaScript/changeNav.js" defer></script>
-    <link rel="stylesheet" href="../css/Stat.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
-    </style>
-    <script src="../JavaScript/statistics.js" type="module" defer></script>
-</head>
-<body>
-<nav >
-    <a href="../index.html"><img src="/website/media/LogoWhite.svg" alt="Logo"  ></a>
-    <ul>
-
-        <li><a href="../index.html"> Home</a></li>
-        <li><a href="TheGame.html">The Game</a></li>
-        <li><a href="Download.html" >Download</a></li>
-        <li><a href="AboutUs.html">About us</a></li>
-        <li><a href="Presentation.html">Presentation</a></li>
-        <li ><a class="stat active" >Statistics</a></li>
-    </ul>
-    <button class="login">Log in</button>
-
-</nav>
-
-
-<main>
-    <form>
-        <label for="gameID">ID</label>
-        <input type="number" min="0" id="gameID">
-        <label for="username">Username</label>
-        <input type="text" id="username">
-        <label for="score" >Score</label>
-        <input type="number" id="score">
-        <input id = "comparator" list="ranking" pattern="Above|Equal|Below">
-            <datalist id="ranking">
-                <option value="Above">
-                <option value="Equal">
-                <option value="Below">
-            </datalist>
-
-        <label for="win">Win</label>
-        <input type="radio" name="win" id="win">
-        <label for="lose">Lose</label>
-        <input type="radio" name="win" id="lose">
-        <label><input type="Date">Before</label>
-        <label><input type="date">After</label>
-        <button id="submit" >Submit</button>
-    </form>
-</main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script src="../js/changeNav.js" defer></script>
+        <link rel="stylesheet" href="../css/Stat.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+        </style>
+        <script src="../js/statistics.js" type="module" defer></script>
+    </head>
+    <body>
+        <nav >
+            <a href="../index.html"><img src="../img/LogoWhite.svg" alt="Logo"  ></a>
+            <ul>
+                <li><a href="../index.html"> Home</a></li>
+                <li><a href="TheGame.html">The Game</a></li>
+                <li><a href="Download.html" >Download</a></li>
+                <li><a href="AboutUs.html">About us</a></li>
+                <li><a href="Presentation.html">Presentation</a></li>
+                <li ><a class="stat active" >Statistics</a></li>
+            </ul>
+            <button class="login">Log in</button>
+        </nav>
+        <main>
+            <form>
+                <label for="gameID">ID</label>
+                <input type="number" min="0" id="gameID">
+                <label for="username">Username</label>
+                <input type="text" id="username">
+                <label for="score" >Score</label>
+                <input type="number" id="score">
+                <input id = "comparator" list="ranking" pattern="Above|Equal|Below">
+                    <datalist id="ranking">
+                        <option value="Above">
+                        <option value="Equal">
+                        <option value="Below">
+                    </datalist>
+                <label for="win">Win</label>
+                <input type="radio" name="win" id="win">
+                <label for="lose">Lose</label>
+                <input type="radio" name="win" id="lose">
+                <label><input type="Date">Before</label>
+                <label><input type="date">After</label>
+                <button id="submit" >Submit</button>
+            </form>
+        </main>
+    </body>
 </html>
