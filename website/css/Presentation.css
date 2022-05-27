@@ -37,3 +37,140 @@ nav a {
     font-size: 20px;
     background-color: #212529;
 }
+li a:hover{
+    color: #12a114;
+}
+.active{
+    color: #12a114;
+}
+nav button{
+    height: 2em;
+    background-color: green;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 8em;
+    border-radius: 12em;
+    font-weight: bold;
+}
+.login{margin-left: auto;
+    background-color: #E9ECEF;
+    color: #008000;
+}
+nav button:hover{
+    background-color: #0a5c0c;
+}
+.login:hover{
+    background-color: #008000;
+    color: #E9ECEF;
+}
+
+ h1,h2,h3,h4 {
+    text-align: center;
+     margin-bottom: 1%;
+}
+ section{
+     margin-left: 2%;
+     margin-right: 2%;
+     margin-top: 2%;
+ }
+
+ div p{
+     text-align: center;
+     font-size: large;
+ }
+
+ div a{
+     text-decoration: none;
+ }
+
+
+
+footer{
+    background-color: #212529;
+    text-align: center;
+   position:relative;
+    bottom:0;
+    width:100%;
+    height:2em;
+    color: #f2f2f2;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    nav ul {
+        margin-left: 10em;
+    }
+    main >* {
+        margin-top: 11%;
+    }
+}
+@media screen and (max-width: 1310px){
+    nav ul {
+        margin-left: 5em;
+    }
+}
+@media screen and (max-width: 1210px){
+    nav ul {
+        margin-left: 0;
+    }
+    nav ul li{
+        padding:10px;
+    }
+}
+@media screen and (max-width: 1024px){
+    nav ul li{
+        padding:8px;
+    }
+    nav ul li a{
+        font-size:15px;
+    }
+    nav button{
+        height: 1.5em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        width: 6em;
+    }
+
+    footer{
+        font-size:15px;
+    }
+}
+@media screen and (max-width: 768px){
+    nav ul li{
+        padding:6px;
+    }
+    nav img{
+        height: 1.1em;
+    }
+
+    nav ul li{
+        padding:5px;
+    }
+    nav button {
+        font-size: 0.65em;
+    }
+    nav ul li a{
+        font-size:10px;
+    }
+    footer{
+        font-size:10px;
+    }
+}
+@media screen and (max-width: 606px){
+    nav {
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .login{
+        margin-left: 0;
+    }
+    section{
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 8%;
+    }
+
+}

@@ -31,7 +31,7 @@ if(logCheck==="true"){
 else {
     logButton.addEventListener("click", e => {
         if (window.location.pathname === "/index.html") {
-            window.location.href = "./html/Login.html";
+            window.location.href = "../html/Login.html";
         } else {
             window.location.href = "Login.html";
         }
