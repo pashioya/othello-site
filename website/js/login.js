@@ -1,10 +1,11 @@
-import { usersJson } from 'users.js';
+import { usersJson } from './users.js';
 
 
-const button=document.querySelector("button");
+const button=document.getElementById("submit")
 button.addEventListener("click", ev => {getInfo()})
 
 function getInfo() {
+    console.log("test")
     let isLogin=false;
     let username=document.getElementById("username").value;
     let password=document.getElementById("password").value;

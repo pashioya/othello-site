@@ -24,6 +24,7 @@
             <button class="login">Log in</button>
         </nav>
         <main>
+            <div>
             <form>
                 <label for="gameID">ID</label>
                 <input type="number" min="0" id="gameID">
@@ -31,20 +32,44 @@
                 <input type="text" id="username">
                 <label for="score" >Score</label>
                 <input type="number" id="score">
-                <input id = "comparator" list="ranking" pattern="Above|Equal|Below">
-                    <datalist id="ranking">
-                        <option value="Above">
-                        <option value="Equal">
-                        <option value="Below">
-                    </datalist>
+                <select id="comparison">
+                    <option value="below">Below</option>
+                    <option value="equal">Equal</option>
+                    <option value="above">Above</option>
+                </select>
                 <label for="win">Win</label>
                 <input type="radio" name="win" id="win">
                 <label for="lose">Lose</label>
                 <input type="radio" name="win" id="lose">
-                <label><input type="Date">Before</label>
-                <label><input type="date">After</label>
+                <label>Before</label>
+                <input type="date" id="beforeDate">
+                <label>After</label>
+                <input type="date" id="afterDate">
                 <button id="submit" >Submit</button>
             </form>
+            </div>
+
+
+
+            <table>
+                <thead>
+                <th>Id</th>
+                <th>Date</th>
+                <th>Duration</th>
+                <th>Is Over</th>
+                <th>Won</th>
+                <th id="tablePlayer">Username</th>
+                <th>Computer name</th>
+                <th id="tableScore">Score</th>
+
+
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
         </main>
+
+        <footer>
+            © 2022 | KdG ACS 101 Group 9
+        </footer>
     </body>
 </html>

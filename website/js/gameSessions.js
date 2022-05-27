@@ -1,11 +1,11 @@
 export const gamesJson = `[
     {
         "gamesession_id": 0,
-        "start_date_time": "2022/05/20 13:02:32:361",
+        "start_date_time": "2022/05/10 13:02:32:361",
         "time_elapsed": 150.453,
         "is_over": true,
-        "user_won": true,
-        "username": "1",
+        "user_won": false,
+        "username": "Endellos",
         "computer_name": "basicAI",
         "number_stones_user": 41
     },
